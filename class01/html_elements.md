@@ -1,6 +1,4 @@
-Here's the content for the `HTMLTAG.md` file based on your provided HTML elements overview in Bengali:
 
-```markdown
 # HTML উপাদানের ওভারভিউ
 
 ## ১. ট্যাগ
