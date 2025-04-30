@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: #121314;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d82323;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: Green;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+
+  .form-group input:focus {
+    border-color: #c62b2b;
+    outline: none;
+  }
+/* Descendant Selector */
+  .form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color: #bfcb8e;
+    border: none;
+    color: rgb(230, 234, 224);
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-group button:hover {
+    background-color: #6f94bc;
+  }
+  /* Class Selector */
+  .bold {
+    font-weight: bolder;
+  }
+  /* ID Selector */
+  #ulid{
+    border: 5px solid #a18888;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  /* Grouping Selectors */
+label,#ulid, h1 {
+    color: #b3891e;
+  }
